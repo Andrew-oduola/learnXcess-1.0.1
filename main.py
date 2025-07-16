@@ -25,7 +25,6 @@ DEFAULT_MODEL = 'gemini-1.5-flash'
 # Load environment variables
 load_dotenv()
 
-GEMINI_API_KEYS = ["AIzaSyDlip38FAQFVVjoo-d4w0Jh5ufa0imA8wE", "AIzaSyBCURyNysCPQZyX71fbbM2B8bnX3rYoeRM"]
 
 # Configuration with error handling
 def get_api_keys():
