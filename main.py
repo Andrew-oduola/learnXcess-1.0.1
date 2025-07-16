@@ -17,6 +17,7 @@ from urllib.parse import urlparse, parse_qs
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
 
+st.set_page_config(page_title="LearnXcess")
 
 # Constants
 MAX_CHARS = 30000  # Safe input size
@@ -122,12 +123,13 @@ def initialize_session_state():
 def display_intro():
     """Display the application introduction with error handling."""
     try:
-        st.title("🎓 LearnXcess 2.0")
+        st.title("🎓 LearnXcess")
         st.markdown("""
         Transform your study materials into effective flashcards with AI. Choose from:
         1. **Generate from topic** - Just provide a subject/topic
         2. **Upload a file** - PDF, TXT, or DOCX
         3. **Paste text** - Direct content input
+        4. **YouTube video** - Fetch and generate from a YouTube video transcript
         """)
     except Exception as e:
         st.error(f"❌ Failed to display introduction: {str(e)}")
