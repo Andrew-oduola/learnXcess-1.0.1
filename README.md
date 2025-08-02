@@ -1,5 +1,5 @@
 ﻿# LearnXcess
-[Prototype Link](https://learnxcess.streamlit.app)
+[Prototype Link](https://learnxcess.streamlit.app) <br>
 [Landing Page link](https://learnxcess-one.vercel.app)
 
 **LearnXcess** is an AI-powered tool that transforms your study materials into high-quality flashcards, ready for review or export to Anki. Powered by Google Gemini, it supports multiple input methods and flashcard formats for flexible, effective learning.
@@ -102,3 +102,4 @@ This project is for educational use. See [LICENSE](LICENSE) if available.
 
 
 Made with ❤️ using Streamlit and Google Gemini.
+
